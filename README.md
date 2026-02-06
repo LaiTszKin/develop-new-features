@@ -21,6 +21,8 @@ PRD-first 的功能開發技能，先產生並確認 PRD，再開始實作。
 ```text
 .
 ├── SKILL.md
+├── examples/
+│   └── membership-upgrade-flow-prd.md
 ├── references/
 │   ├── prd-template.md
 │   ├── testing-unit.md
@@ -70,6 +72,10 @@ python3 scripts/create_prd.py "功能名稱" \
 - `--template`：模板路徑（預設 `references/prd-template.md`）
 - `--force`：若同名檔案存在則覆蓋
 
+## Example
+
+可參考完整範例 PRD：`examples/membership-upgrade-flow-prd.md`
+
 ## 建議工作流程
 
 1. 查詢本次功能需要的官方文件（只查必要部分）
@@ -88,4 +94,4 @@ python3 scripts/create_prd.py "功能名稱" \
 
 ## License
 
-如需對外散佈，請依你的組織政策補上授權條款。
+本專案採用 MIT 授權，詳見 `LICENSE`。
